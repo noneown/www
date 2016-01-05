@@ -1,0 +1,161 @@
+html, body{
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  width: 760px;
+  font-family: Arial, Helvetica, Verdana, Sans-serif;
+  font-size: 12px;
+  color: #666666;
+  background: #ffffff;
+}
+
+body .hidden {
+  display: none;
+}
+
+h1{
+  margin: 0;
+  padding: 0;
+}
+
+#pagecontener{
+   height: 58px;
+   margin: auto;
+   background: red;
+}
+
+#mainnav{
+  height: 50px;
+}
+
+#mainnav ul{
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  padding-left: 11px;
+  list-style: none;
+}
+
+#mainnav li{
+  float: left;
+}
+
+#mainnav li a{
+  display: block;
+  height: 0 !important;
+  padding: 50px 0 0 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+
+
+
+#mainnav li a:hover {
+  background-position: 0 -50px;
+}
+
+#mainnav li a:active {
+  background-position: 0 -100px;
+}
+
+#mainnav li#about,
+#mainnav li#about a { width: 71px; background-image: url(../images/about.jpg); }
+#mainnav li#services,
+#mainnav li#services a { width: 84px; background-image: url(../images/services.jpg); }
+#mainnav li#portfolio,
+#mainnav li#portfolio a { width: 95px; background-image: url(../images/portfolio.jpg); }
+#mainnav li#contact,
+#mainnav li#contact a { width: 106px; background-image: url(../images/contact.jpg); }
+
+body.about li#about,
+body.about li#about a,
+body.services li#services,
+body.services li#services a,
+body.portfolio li#portfolio,
+body.portfolio li#portfolio a,
+body.contact li#contact,
+body.contact li#contact a {
+  background-position: 0 -100px;
+}
+
+#header{
+  height: 150px;
+  background: #db6d16 url('../images/bar.jpg') no-repeat;
+}
+
+#header img{
+  float: right;
+  padding: 58px 29px 0 0;
+}
+
+#header span{
+  float: right;
+  margin-top: 57px;
+  height: 30px;
+  padding: 0 267px 0 0;
+  background-size: 236px 35px;
+  background: url('../images/logo.jpg') no-repeat;
+}
+
+#sidebar{
+  float: right;
+  line-height: 18px;
+  width: 280px;
+}
+
+#sidebar p{
+  padding: 10px 0 15px 25px;
+}
+
+#sidebar .padding {
+  padding: 25px;
+}
+
+#content{
+  line-height: 18px;
+  margin-right: 280px;
+}
+
+#content .padding {
+  padding: 25px;
+}
+
+
+#content h2 {
+  margin: 0;
+  padding: 25px 0 15px 25px;
+}
+
+#content p {
+  margin: 0;
+  padding: 10px 0 15px 25px;
+}
+
+#footer{
+  clear: both;
+  height: 66px;
+  font-family: Tahoma, Arial, Helvetica, Sans-serif;
+  font-size: 10px;
+  color: #c9c9c9;
+  border-top: 1px solid #efefef;
+  padding: 13px 25px;
+  line-height: 18px;
+}
+
+#footer #altnav {
+  width: 350px;
+  float: right;
+  text-align: right;
+}
+
+#footer a{
+    color: #c9c9c9;
+	text-decoration: none;
+}
+
+#footer a.hover{
+  color: #db6d16;
+}
